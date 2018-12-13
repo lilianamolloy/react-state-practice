@@ -1,0 +1,35 @@
+.animal {
+    width: 400px;
+    background: rgb(213, 220, 226);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.buttons button {
+    width: 40%;
+    background: lightsalmon;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    height: 80px;
+    font-size: 60px;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.animal p {
+    width: 40%;
+}
